@@ -28,7 +28,7 @@ spec:
       containers:
         - name: backend
           image: saiteja2010234/hosiptalmanagement:backend-v1  
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
               name: http
